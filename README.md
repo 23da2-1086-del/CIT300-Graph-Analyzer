@@ -99,8 +99,8 @@ Or just double-click `run.bat`. If `javac` is not recognised, install a JDK (not
 | BFS and DFS (adjacency list) | O(V + E) |
 
 ## Testing Status
-See `docs/TEST_PLAN.md`. **Actual results are recorded in that file by the group after running the tests.**
-Status: [update this line honestly, e.g. "All tests run on dd/mm/yyyy – 40/40 passed"]
+See `docs/TEST_PLAN.md`. Actual results are recorded in that file by the group after running the tests.
+Status: Tests not yet run
 
 ## GitHub Workflow
 One shared repository; each member works on their own branch (`member1-array-searching`,
