@@ -9,31 +9,31 @@ Linked List, Searching algorithms (Linear and Binary) and a Graph (BFS and DFS)*
 **compare the performance** of the algorithms using step counts and execution time.
 
 ## Group Members
-> Replace every [placeholder]. Each member must write their OWN contribution honestly.
 
 | Student Name | Student ID | Assigned Responsibility |
 |---|---|---|
-| [Member 1 full name] | [ID] | Array and Searching |
-| [Member 2 full name] | [ID] | Stack, Queue, Main Menu, Input Validation |
-| [Member 3 full name] | [ID] | Linked List and Performance Comparison |
-| [Member 4 full name] | [ID] | Graph, Documentation and Final Testing |
+| M.F.M. Amry | 23DA2-1086 | Array and Searching |
+| M.S.M. Saneej | 23DA2-0962 | Stack, Queue, Main Menu, Input Validation |
+| M.N.M. Afrath | 23DA2-0689 | Linked List and Performance Comparison |
+| N.M. Askan | 23DA2-1098 | Graph, Documentation and Final Testing |
 
 ### Individual Contributions
-**Member 1 – [name], [ID]** (Array and Searching)
+
+**Member 1 – M.F.M. Amry, 23DA2-1086** (Array and Searching)
 - Files: `ArrayOperations.java`, `ArrayMenu.java`, `SearchOperations.java`, `SearchResult.java`, `SearchMenu.java`
-- [Describe what YOU implemented, tested, changed or improved]
+- I implemented the array (insert at end or index, delete by index or value, search, display, random fill, clear) and Linear and Binary Search with step counts and execution time. I created `SearchResult.java` to store each search result and handled missing values and invalid indexes.
 
-**Member 2 – [name], [ID]** (Stack, Queue, Main Menu)
+**Member 2 – M.S.M. Saneej, 23DA2-0962** (Stack, Queue, Main Menu)
 - Files: `StackOperations.java`, `StackMenu.java`, `QueueOperations.java`, `QueueMenu.java`, `InputHelper.java`, `Main.java`
-- [Describe what YOU implemented, tested, changed or improved]
+- I implemented the stack (LIFO) with push, pop, peek and display, and the circular-array queue (FIFO) with enqueue, dequeue, peek and display, including empty and full checks. I wrote `InputHelper.java` to validate input and `Main.java` to connect all sections through the main menu.
 
-**Member 3 – [name], [ID]** (Linked List, Performance)
+**Member 3 – M.N.M. Afrath, 23DA2-0689** (Linked List, Performance)
 - Files: `LinkedListOperations.java`, `LinkedListMenu.java`, `ResultsStore.java`, `PerformanceMenu.java`
-- [Describe what YOU implemented, tested, changed or improved]
+- I implemented the singly linked list (insert at head, tail or position, delete by value or position, search, display) with head and tail references. I also built the performance comparison, `ResultsStore.java` for recorded results, and `PerformanceMenu.java` to run comparisons and show them.
 
-**Member 4 – [name], [ID]** (Graph, Documentation, Testing)
-- Files: `Graph.java`, `TraversalResult.java`, `GraphMenu.java`, `README.md`, `TEST_PLAN.md`
-- [Describe what YOU implemented, tested, changed or improved]
+**Member 4 – N.M. Askan, 23DA2-1098** (Graph, Documentation, Testing)
+- Files: `Graph.java`, `TraversalResult.java`, `GraphMenu.java`, `README.md`, `docs/TEST_PLAN.md`
+- I implemented the undirected adjacency-list graph with BFS and DFS, `TraversalResult.java` for traversal results, and `GraphMenu.java` with input validation. I also prepared the README and the test plan and helped with final testing.
 
 ## Technologies Used
 - Java (JDK 17 or newer recommended; tested with JDK 21 class libraries)
